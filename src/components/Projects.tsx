@@ -10,12 +10,12 @@ const Projects = () => {
         <h1 className="text-3xl text-white mb-6 font-bold">
           <Heading title="My Projects" />
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-screen-lg">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-screen-lg"data-aos="zoom-in-up">
           {/* Card 1 */}
           <div className="bg-gray-800 rounded-lg shadow-md p-6  w-full">
             <Link href="https://kababjees-website.vercel.app/" target="_blank">
               <Image
-                src="/kababjees-img.png"
+                src="/kababjees-img.png" data-aos="zoom-in-up"
                 alt="Kababjees"
                 width={400}
                 height={300}
@@ -29,7 +29,7 @@ const Projects = () => {
           <div className=" bg-gray-800 rounded-lg shadow-md p-6 w-full">
             <Link href="https://icons-website.vercel.app/" target="_blank">
               <Image
-                src="/Apple-website.png"
+                src="/Apple-website.png"data-aos="zoom-in-up"
                 alt="Apple Website"
                 width={400}
                 height={300}
@@ -43,7 +43,7 @@ const Projects = () => {
           <div className=" bg-gray-800 rounded-lg shadow-md p-6 w-full">
             <Link href="https://myapp-sir-mubasshir-figma-assignment2-odlg.vercel.app/" target="_blank">
               <Image
-                src="/next-js assignment.png"
+                src="/next-js assignment.png"data-aos="zoom-in-up"
                 alt="Next.js Assignment"
                 width={400}
                 height={300}
@@ -57,7 +57,7 @@ const Projects = () => {
           <div className=" bg-gray-800 rounded-lg shadow-md p-6 w-full">
             <Link href="https://website-navigation-bar.vercel.app/" target="_blank">
               <Image
-                src="/website-navigation-bar.png"
+                src="/website-navigation-bar.png" data-aos="zoom-in-up"
                 alt="Website Navigation Bar"
                 width={400}
                 height={300}
@@ -71,7 +71,7 @@ const Projects = () => {
           <div className="bg-gray-800 rounded-lg shadow-md p-6 w-full">
             <Link href="https://portfolio-website-html-css-peach.vercel.app/" target="_blank">
               <Image
-                src="/portfolio-html-css.png"
+                src="/portfolio-html-css.png"data-aos="zoom-in-up"
                 alt="Portfolio HTML/CSS"
                 width={400}
                 height={300}
@@ -85,7 +85,7 @@ const Projects = () => {
           <div className="bg-gray-800 rounded-lg shadow-md p-6 w-full">
             <Link href="https://mini-project-two-liart.vercel.app/" target="_blank">
               <Image
-                src="/mini-project.png"
+                src="/mini-project.png"data-aos="zoom-in-up"
                 alt="Mini Project"
                 width={400}
                 height={300}

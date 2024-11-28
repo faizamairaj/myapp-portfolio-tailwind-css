@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -10,12 +10,10 @@ import Testimonials from "@/components/Testimonials";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
-
-
+import {useEffect} from "react"; 
 
 export default function Home() {
-
+ 
   useEffect(()=>{
     AOS.init ({
    easing: "ease-out-back",
@@ -27,6 +25,7 @@ export default function Home() {
     });
     AOS.refresh();
   },[]);
+
 
   return (
    <main>
